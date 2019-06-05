@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>spring_boot_test01</artifactId>
+        <groupId>com.dz</groupId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../spring_boot_test01/pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>springboot_manager</artifactId>
+    <name>springboot_manager</name>
+    <modules>
+        <module>spring_boot_hello</module>
+        <module>spring_boot_web</module>
+    </modules>
+    <packaging>pom</packaging>
+
+</project>
